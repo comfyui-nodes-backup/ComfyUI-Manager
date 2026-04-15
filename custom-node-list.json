@@ -46255,6 +46255,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "andreszs",
+            "title": "ComfyUI-Styler-Pipeline",
+            "reference": "https://github.com/andreszs/ComfyUI-Styler-Pipeline",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-Styler-Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "Style selection and AI-assisted preset pipeline for ComfyUI, including manual and LLM-based style workflows."
         }
     ]
 }
