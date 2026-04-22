@@ -46467,6 +46467,17 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "pixaroma",
+            "title": "ComfyUI-Pixaroma",
+            "id": "comfyui-pixaroma",
+            "reference": "https://github.com/pixaroma/ComfyUI-Pixaroma",
+            "files": [
+                "https://github.com/pixaroma/ComfyUI-Pixaroma"
+            ],
+            "install_type": "git-clone",
+            "description": "Creative suite for ComfyUI — 3D Builder, Paint Studio, Image Composer, Image Crop, Image Compare, and Label with layers, transforms, AI background removal, and more."
         }
     ]
 }
