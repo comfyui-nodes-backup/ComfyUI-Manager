@@ -59,12 +59,12 @@
             "description": "This is a helper extension for ComfyUI that assists with node connections."
         },
 		{
-            "author": "MSYNTRIX",
-            "title": "ComfyUI-MSYNTRIX",
-            "id": "comfyui-msyntrix",
-            "reference": "https://github.com/MSYNTRIX/comfyui-msyntrix",
+            "author": "SOLRICKS",
+            "title": "ComfyUI-SOLRICKS",
+            "id": "comfyui-solricks",
+            "reference": "https://github.com/SOLRICKS/comfyui-solricks",
             "files": [
-                "https://github.com/MSYNTRIX/comfyui-msyntrix"
+                "https://github.com/SOLRICKS/comfyui-solricks"
             ],
             "install_type": "git-clone",
             "description": "ComfyUI Video Anti-Aliasing Pack"
