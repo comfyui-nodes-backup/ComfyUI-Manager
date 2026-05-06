@@ -46477,7 +46477,7 @@
                 "https://github.com/pixaroma/ComfyUI-Pixaroma"
             ],
             "install_type": "git-clone",
-            "description": "Creative suite for ComfyUI — 3D Builder, Paint Studio, Image Composer, Image Crop, Image Compare, and Label with layers, transforms, AI background removal, and more."
+            "description": "Creative suite for ComfyUI with 3D Builder, AudioReact, Image Composer, Paint Studio, Save Mp4, Image Crop, Image Compare, Note Pixaroma, Label, Resolution, Preview Image, and Align Pixaroma (canvas snap & alignment guides). Layers, transforms, AI background removal, audio-reactive video, and more."
         }
     ]
 }
