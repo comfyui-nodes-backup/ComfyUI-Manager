@@ -47024,6 +47024,26 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "andreszs",
+            "title": "ComfyUI-OpenPose-Studio",
+            "reference": "https://github.com/andreszs/ComfyUI-OpenPose-Studio",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-OpenPose-Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "Modern OpenPose pose editor for ComfyUI with collections, JSON import/export, background image support, and compatibility with legacy pose JSON."
+        },
+        {
+            "author": "andreszs",
+            "title": "ComfyUI-Ultralytics-Studio",
+            "reference": "https://github.com/andreszs/ComfyUI-Ultralytics-Studio",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-Ultralytics-Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "Ultralytics workflow and editor tools for ComfyUI with enhanced preview and UI integration."
         }
     ]
 }
