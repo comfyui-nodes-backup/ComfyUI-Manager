@@ -1,6 +1,76 @@
 {
     "custom_nodes": [
         {
+            "author": "Moeblack",
+            "title": "ComfyUI-AnimaTool",
+            "id": "comfyui-animatool",
+            "reference": "https://github.com/Moeblack/ComfyUI-AnimaTool",
+            "files": [
+                "https://github.com/Moeblack/ComfyUI-AnimaTool"
+            ],
+            "install_type": "git-clone",
+            "description": "AI Tool Use API for Anima anime/illustration image generation. Supports MCP Server (native image display in Cursor/Claude), HTTP API, and CLI.",
+            "tags": [
+                "anima",
+                "anime",
+                "illustration",
+                "mcp",
+                "tool-use",
+                "api"
+            ]
+        },
+        {
+            "author": "andreszs",
+            "title": "ComfyUI-OpenPose-Studio",
+            "reference": "https://github.com/andreszs/ComfyUI-OpenPose-Studio",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-OpenPose-Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "Modern OpenPose pose editor for ComfyUI with collections, JSON import/export, background image support, and compatibility with legacy pose JSON."
+        },
+        {
+            "author": "andreszs",
+            "title": "ComfyUI-Ultralytics-Studio",
+            "reference": "https://github.com/andreszs/ComfyUI-Ultralytics-Studio",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-Ultralytics-Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "Ultralytics workflow and editor tools for ComfyUI with enhanced preview and UI integration."
+        },
+        {
+            "author": "andreszs",
+            "title": "ComfyUI-Styler-Pipeline",
+            "reference": "https://github.com/andreszs/ComfyUI-Styler-Pipeline",
+            "files": [
+                "https://github.com/andreszs/ComfyUI-Styler-Pipeline"
+            ],
+            "install_type": "git-clone",
+            "description": "Style selection and AI-assisted preset pipeline for ComfyUI, including manual and LLM-based style workflows."
+        },
+        {
+            "author": "SiliconFlow",
+            "title": "BizyAirPlus",
+            "id": "bizyairplus",
+            "reference": "https://github.com/siliconflow/BizyAirPlus",
+            "files": [
+                "https://github.com/siliconflow/BizyAirPlus"
+            ],
+            "install_type": "git-clone",
+            "description": "[a/BizyAirPlus](https://github.com/siliconflow/BizyAirPlus) Run your workflow on cloud."
+        },
+        {
+            "author": "thomaskippster",
+            "title": "ComfyUI Model Downloader Bridge",
+            "reference": "https://github.com/thomaskippster/comfymodeldownloader",
+            "files": [
+                "https://github.com/thomaskippster/comfymodeldownloader"
+            ],
+            "install_type": "git-clone",
+            "description": "Bridge for the standalone ComfyUI Model Downloader. Analyzes workflows, finds missing models via AI, and manages your archive to save SSD space."
+        },
+        {
             "author": "akashzeno",
             "title": "ComfyUI-PulseOfMotion",
             "id": "comfyui-pulse-of-motion",
