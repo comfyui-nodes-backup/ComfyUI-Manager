@@ -1,6 +1,27 @@
 {
     "custom_nodes": [
         {
+            "author": "chkeeho80",
+            "title": "PromptDeckComposer",
+            "reference": "https://github.com/chkeeho80/PromptDeckComposer",
+            "files": [
+                "https://github.com/chkeeho80/PromptDeckComposer"
+            ],
+            "install_type": "git-clone",
+            "description": "Structured + chaos-based prompt generation system for ComfyUI. Generate less. Evolve more."
+        },
+        {
+            "author": "AISeDam",
+            "title": "ComfyUI_RP_Cast",
+            "id": "comfyui_rp_cast",
+            "reference": "https://github.com/AISeDam/ComfyUI_RP_Cast",
+            "files": [
+                "https://github.com/AISeDam/ComfyUI_RP_Cast"
+            ],
+            "install_type": "git-clone",
+            "description": "Per-region prompt and LoRA control for SD1.5, SDXL, Z-Image, and Qwen — compatible with multiple model architectures."
+        },
+        {
             "author": "stevelasmin4real",
             "title": "Resolution Calculator by Steve Lasmin",
             "reference": "https://github.com/Eklipsis/resolution_calculator_by_steve_lasmin",
