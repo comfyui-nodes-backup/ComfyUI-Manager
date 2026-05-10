@@ -1,6 +1,116 @@
 {
     "custom_nodes": [
         {
+            "author": "stevelasmin4real",
+            "title": "Resolution Calculator by Steve Lasmin",
+            "reference": "https://github.com/Eklipsis/resolution_calculator_by_steve_lasmin",
+            "files": [
+                "https://github.com/Eklipsis/resolution_calculator_by_steve_lasmin"
+            ],
+            "install_type": "git-clone",
+            "description": "Calculates width and height from max resolution, aspect ratio, and multiplier for ComfyUI"
+        },
+        {
+            "author": "hm1579",
+            "title": "ComfyUI-LoopGif",
+            "reference": "https://github.com/HM1579/ComfyUI-LoopGif",
+            "files": [
+                "https://github.com/HM1579/ComfyUI-LoopGif"
+            ],
+            "install_type": "git-clone",
+            "description": "A simple ComfyUI custom node for creating looping GIFs from VIDEO inputs."
+        },
+        {
+            "author": "stevelasmin4real",
+            "title": "Universal Input Hub by Steve Lasmin",
+            "reference": "https://github.com/Eklipsis/universal_input_hub_by_steve_lasmin",
+            "files": [
+                "https://github.com/Eklipsis/universal_input_hub_by_steve_lasmin"
+            ],
+            "install_type": "git-clone",
+            "description": "All-in-one ComfyUI workflow hub: resolution calculator, noise, sigmas, conditioning, and sampler outputs"
+        },
+        {
+            "author": "bemoregt",
+            "title": "ComfyUI_FourierDomainAdaptation",
+            "reference": "https://github.com/bemoregt/ComfyUI_FourierDomainAdaptation",
+            "files": [
+                "https://github.com/bemoregt/ComfyUI_FourierDomainAdaptation"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom ComfyUI node that applies Fourier Domain Adaptation (FDA) between a target image and a reference image."
+        },
+        {
+            "author": "CrazyDashTool",
+            "title": "Combine-video-and-audio-comfyUI",
+            "reference": "https://github.com/CrazyDashTool/Combine-video-and-audio-comfyUI",
+            "files": [
+                "https://github.com/CrazyDashTool/Combine-video-and-audio-comfyUI"
+            ],
+            "install_type": "git-clone",
+            "description": "A set of custom nodes for ComfyUI that merge video and audio using ffmpeg."
+        },
+        {
+            "author": "dokukobura",
+            "title": "comfyui-usk-utils",
+            "reference": "https://github.com/dokukobura/comfyui-usk-utils",
+            "files": [
+                "https://github.com/dokukobura/comfyui-usk-utils"
+            ],
+            "install_type": "git-clone",
+            "description": "Smart offline checkpoint loader that auto-detects model architecture and lineage, dynamically routing optimal Latent, base prompt, and VAE warnings. (Description by CC)"
+        },
+        {
+            "author": "huagusam",
+            "title": "comfyui-attention-selector",
+            "reference": "https://github.com/huagusam/comfyui-attention-selector",
+            "files": [
+                "https://github.com/huagusam/comfyui-attention-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "Simple attention backend selector for ComfyUI supporting basic, sub_quad, split, pytorch, xformers, sage, and flash attention implementations."
+        },
+        {
+            "author": "db0",
+            "title": "comfyui-db0-pack",
+            "reference": "https://github.com/db0/comfyui-db0-pack",
+            "files": [
+                "https://github.com/db0/comfyui-db0-pack"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom comfyui nodes for my purposes."
+        },
+        {
+            "author": "arctan90",
+            "title": "single_image_deducker",
+            "reference": "https://github.com/arctan90/single_image_deducker",
+            "files": [
+                "https://github.com/arctan90/single_image_deducker"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI plugin that decodes a single image from data and outputs it as IMAGE for use in subsequent nodes. (Description by CC)"
+        },
+        {
+            "author": "bertoo87",
+            "title": "ComfyUI_ColorGrading",
+            "reference": "https://github.com/bertoo87/ComfyUI_ColorGrading",
+            "files": [
+                "https://github.com/bertoo87/ComfyUI_ColorGrading"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom node featuring three interactive color wheels for shadows, midtones, and highlights with independent threshold sliders and master intensity control."
+        },
+        {
+            "author": "ankushgawande",
+            "title": "comfyui-scene-framer",
+            "reference": "https://github.com/ankushgawande/comfyui-scene-framer",
+            "files": [
+                "https://github.com/ankushgawande/comfyui-scene-framer"
+            ],
+            "install_type": "git-clone",
+            "description": "Scene Framer is a simple utility node for framing multiple shots from a single image."
+        },
+        {
             "author": "artemko7v",
             "title": "ComfyUI Complex Prompt Nodes",
             "reference": "https://github.com/ArtemKo7v/ComfyUI-Complex-Prompt",

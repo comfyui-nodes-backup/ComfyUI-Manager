@@ -1321,6 +1321,8 @@
             "VTS Images Crop From Masks",
             "VTS Images Scale",
             "VTS Images Scale To Min",
+            "VTS Latent Batch To List",
+            "VTS Latent List To Batch",
             "VTS Looping K Sampler",
             "VTS Math",
             "VTS Merge Delimited Text",
@@ -1340,6 +1342,9 @@
             "VTS To Text",
             "VTS To Text List",
             "VTS VAE Decode Tiled",
+            "VTS VAE Encode",
+            "VTS VAE Encode Tiled",
+            "VTSGenericImageWrapper",
             "VTSLTXAddVideoICLoRAGuide",
             "VTS_Load_Pose_Keypoints",
             "Vts Text To Batch Prompt"
@@ -3333,7 +3338,11 @@
             "SplitData",
             "StableRandomChoiceNode",
             "TagStacker",
-            "TagTweaker"
+            "TagTweaker",
+            "Wan22DualLoRA",
+            "Wan22DualModel",
+            "Wan22LoRAStacker",
+            "Wan22Render"
         ],
         {
             "title_aux": "Mets-Nodes"
@@ -4701,8 +4710,6 @@
     ],
     "https://github.com/SlackinJack/multigpu_diffusion_comfyui": [
         [
-            "AdvancedFlowMatchScheduler",
-            "AdvancedSchedulerSelector",
             "ApplyPipeline",
             "AsyncDiffConfig",
             "AttentionBackendConfig",
@@ -4714,6 +4721,7 @@
             "CreateHost",
             "EncodePromptWithCompel",
             "FlowMatchScheduler",
+            "FlowMatchSchedulerConfig",
             "FluxSampler",
             "GroupOffloadConfig",
             "LoraSelector",
@@ -4728,6 +4736,7 @@
             "SDSamplerPrompt",
             "SDUpscaleSampler",
             "SVDSampler",
+            "SchedulerConfig",
             "SchedulerSelector",
             "SingleConfig",
             "SleepHost",
@@ -7707,6 +7716,10 @@
             "WanAnimateToVideo",
             "WanCameraEmbedding",
             "WanCameraImageToVideo",
+            "WanDancerEncodeAudio",
+            "WanDancerPadKeyframes",
+            "WanDancerPadKeyframesList",
+            "WanDancerVideo",
             "WanFirstLastFrameToVideo",
             "WanFunControlToVideo",
             "WanFunInpaintToVideo",
@@ -12399,6 +12412,7 @@
             "Float [Eclipse]",
             "Generation Data (Gated) [Eclipse]",
             "Generation Data [Eclipse]",
+            "Get Last Image [Eclipse]",
             "IF A Else B Fallback [Eclipse]",
             "IF A Else B [Eclipse]",
             "IO Checkpoint Loader [Eclipse]",
