@@ -45903,6 +45903,26 @@
             "description": "Gemini native generateContent custom nodes for ComfyUI with Nano Banana, Nano Banana 2, and Nano Banana Pro, supporting both Google direct access and Gemini-compatible native relay endpoints."
         },
         {
+            "author": "magicwang1111",
+            "title": "ComfyUI-Happyhorse-Wrapper",
+            "reference": "https://github.com/magicwang1111/ComfyUI-Happyhorse-Wrapper",
+            "files": [
+                "https://github.com/magicwang1111/ComfyUI-Happyhorse-Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for HappyHorse 1.0 video generation, including text-to-video, image-to-video, reference-to-video, video editing, and preview nodes."
+        },
+        {
+            "author": "magicwang1111",
+            "title": "ComfyUI-Account-Manager",
+            "reference": "https://github.com/magicwang1111/ComfyUI-Account-Manager",
+            "files": [
+                "https://github.com/magicwang1111/ComfyUI-Account-Manager"
+            ],
+            "install_type": "git-clone",
+            "description": "Adds login, admin-managed user registration, API token generation, IP filtering, and per-account asset isolation to ComfyUI."
+        },
+        {
             "author": "artyclaw",
             "title": "ArtyClaw Comfy Nodes",
             "reference": "https://github.com/artyclaw/artyclaw-comfy",
@@ -46888,26 +46908,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "magicwang1111",
-            "title": "ComfyUI-Happyhorse-Wrapper",
-            "reference": "https://github.com/magicwang1111/ComfyUI-Happyhorse-Wrapper",
-            "files": [
-                "https://github.com/magicwang1111/ComfyUI-Happyhorse-Wrapper"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI custom nodes for HappyHorse 1.0 video generation, including text-to-video, image-to-video, reference-to-video, video editing, and preview nodes."
-        },
-        {
-            "author": "magicwang1111",
-            "title": "ComfyUI-Account-Manager",
-            "reference": "https://github.com/magicwang1111/ComfyUI-Account-Manager",
-            "files": [
-                "https://github.com/magicwang1111/ComfyUI-Account-Manager"
-            ],
-            "install_type": "git-clone",
-            "description": "Adds login, admin-managed user registration, API token generation, IP filtering, and per-account asset isolation to ComfyUI."
         }
     ]
 }
