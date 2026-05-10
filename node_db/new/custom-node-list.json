@@ -252,13 +252,13 @@
         },
         {
             "author": "brosequist",
-            "title": "comfyui-pipeline-barrier",
+            "title": "ComfyUI-PipelineBarrier",
             "reference": "https://github.com/brosequist/ComfyUI-PipelineBarrier",
             "files": [
                 "https://github.com/brosequist/ComfyUI-PipelineBarrier"
             ],
             "install_type": "git-clone",
-            "description": "ComfyUI node that force-flushes GPU caches between pipeline stages to prevent OOM kills"
+            "description": "A single node that flushes PyTorch's GPU memory cache and runs garbage collection between pipeline stages, preventing OOM errors in multi-stage workflows (e.g. two-pass video generation). Accepts a LATENT input and returns it unchanged."
         },
         {
             "author": "artemko7v",
