@@ -47050,21 +47050,16 @@
                 "https://civitai.com/api/download/models/29773",
                 "https://civitai.com/api/download/models/29774",
                 "https://civitai.com/api/download/models/29755",
-                "https://civitai.com/api/download/models/29750"
-            ],
-            "install_type": "unzip",
-            "description": "Various image processing nodes."
         },
         {
-            "author": "aimingfail",
-            "title": "Image2Halftone Node for ComfyUI",
-            "id": "img2halftone",
-            "reference": "https://civitai.com/models/143293/image2halftone-node-for-comfyui",
+            "author": "thomaskippster",
+            "title": "ComfyUI Model Downloader Bridge",
+            "reference": "https://github.com/thomaskippster/comfymodeldownloader",
             "files": [
-                "https://civitai.com/api/download/models/158997"
+                "https://github.com/thomaskippster/comfymodeldownloader"
             ],
-            "install_type": "unzip",
-            "description": "This is a node to convert an image into a CMYK Halftone dot image."
+            "install_type": "git-clone",
+            "description": "Bridge for the standalone ComfyUI Model Downloader. Analyzes workflows, finds missing models via AI, and manages your archive to save SSD space."
         }
     ]
 }
