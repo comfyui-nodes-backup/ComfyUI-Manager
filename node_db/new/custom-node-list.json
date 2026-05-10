@@ -1,6 +1,82 @@
 {
     "custom_nodes": [
         {
+            "author": "akashzeno",
+            "title": "ComfyUI-PulseOfMotion",
+            "id": "comfyui-pulse-of-motion",
+            "reference": "https://github.com/akashzeno/ComfyUI-PulseOfMotion",
+            "files": [
+                "https://github.com/akashzeno/ComfyUI-PulseOfMotion"
+            ],
+            "install_type": "git-clone",
+            "description": "Predicts Physical FPS (PhyFPS) from video using the Visual Chronometer model from the Pulse of Motion paper. Includes SDPA-optimized attention, device selection, progress tracking, and auto-downloads the model from HuggingFace."
+        },
+        {
+            "author": "ketle-man",
+            "title": "ComfyUI-Workflow-Studio",
+            "id": "comfyui-workflow-studio",
+            "reference": "https://github.com/ketle-man/ComfyUI-Workflow-Studio",
+            "files": [
+                "https://github.com/ketle-man/ComfyUI-Workflow-Studio"
+            ],
+            "install_type": "git-clone",
+            "description": "Workflow management and generation UI plugin. Browse, organize, and execute workflows with auto-generated parameter editing, AI prompt assistant (Ollama), JSON syntax highlighting, Eagle integration, and multi-language support (EN/JA/ZH)."
+        },
+        {
+            "author": "destinyfaux",
+            "title": "Z-FUSE: Surgical LoRA Orchestrator",
+            "id": "z-fuse",
+            "reference": "https://github.com/destinyfaux/Z-Fuse",
+            "files": [
+                "https://github.com/destinyfaux/Z-Fuse"
+            ],
+            "install_type": "git-clone",
+            "description": "High-fidelity, architecture-aware LoRA fusion for Z-Image (S3-DiT). Features simultaneous TIES-merging, per-block tuning, and no-loss export."
+        },
+        {
+            "author": "Amatsukast",
+            "title": "ComfyUI-SBTools",
+            "id": "sbtools",
+            "reference": "https://github.com/Amatsukast/ComfyUI-SBTools",
+            "files": [
+                "https://github.com/Amatsukast/ComfyUI-SBTools"
+            ],
+            "install_type": "git-clone",
+            "description": "Workflow toolkit for ComfyUI. Includes BiRefNet background removal, dynamic prompt/image variable system for batch generation, chroma key tools, and more utilities."
+        },
+        {
+            "author": "kenyonxu",
+            "title": "Kai Civitai LoRA Loader",
+            "id": "kai-civitai-lora-loader",
+            "reference": "https://github.com/kenyonxu/ComfyUI_KaiUtilities",
+            "files": [
+                "https://github.com/kenyonxu/ComfyUI_KaiUtilities"
+            ],
+            "install_type": "git-clone",
+            "description": "A LoRA loader that fetches and displays Civitai metadata including trigger words and preview images, with local caching and NSFW blur support."
+        },
+        {
+            "author": "pixaroma",
+            "title": "ComfyUI-Pixaroma",
+            "id": "comfyui-pixaroma",
+            "reference": "https://github.com/pixaroma/ComfyUI-Pixaroma",
+            "files": [
+                "https://github.com/pixaroma/ComfyUI-Pixaroma"
+            ],
+            "install_type": "git-clone",
+            "description": "Creative suite for ComfyUI with 3D Builder, AudioReact, Image Composer, Paint Studio, Save Mp4, Image Crop, Image Compare, Note Pixaroma, Label, Resolution, Preview Image, and Align Pixaroma (canvas snap & alignment guides). Layers, transforms, AI background removal, audio-reactive video, and more."
+        },
+        {
+            "author": "Motif Technologies",
+            "title": "ComfyUI-MotifVideo2B",
+            "reference": "https://github.com/MotifTechnologies/ComfyUI-MotifVideo2B",
+            "files": [
+                "https://github.com/MotifTechnologies/ComfyUI-MotifVideo2B"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for Motif-Video 2B (Motif Technologies) text-to-video and image-to-video diffusion model. Includes model loaders, samplers, and a workflow-driven automatic model download dialog."
+        },
+        {
             "author": "chkeeho80",
             "title": "PromptDeckComposer",
             "reference": "https://github.com/chkeeho80/PromptDeckComposer",
