@@ -46605,6 +46605,16 @@
             "install_type": "git-clone",
             "description": "Creative suite for ComfyUI with 3D Builder, AudioReact, Image Composer, Paint Studio, Save Mp4, Image Crop, Image Compare, Note Pixaroma, Label, Resolution, Preview Image, and Align Pixaroma (canvas snap & alignment guides). Layers, transforms, AI background removal, audio-reactive video, and more."
         },
+        {
+            "author": "Motif Technologies",
+            "title": "ComfyUI-MotifVideo2B",
+            "reference": "https://github.com/MotifTechnologies/ComfyUI-MotifVideo2B",
+            "files": [
+                "https://github.com/MotifTechnologies/ComfyUI-MotifVideo2B"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for Motif-Video 2B (Motif Technologies) text-to-video and image-to-video diffusion model. Includes model loaders, samplers, and a workflow-driven automatic model download dialog."
+        },
 
 
 
@@ -46995,16 +47005,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "Motif Technologies",
-            "title": "ComfyUI-MotifVideo2B",
-            "reference": "https://github.com/MotifTechnologies/ComfyUI-MotifVideo2B",
-            "files": [
-                "https://github.com/MotifTechnologies/ComfyUI-MotifVideo2B"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom nodes for Motif-Video 2B (Motif Technologies) text-to-video and image-to-video diffusion model. Includes model loaders, samplers, and a workflow-driven automatic model download dialog."
         }
     ]
 }
