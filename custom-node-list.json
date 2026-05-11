@@ -45384,17 +45384,6 @@
             "description": "Workflow management and generation UI plugin. Browse, organize, and execute workflows with auto-generated parameter editing, AI prompt assistant (Ollama), JSON syntax highlighting, Eagle integration, and multi-language support (EN/JA/ZH)."
         },
         {
-            "author": "ketle-man",
-            "title": "ComfyUI Image Feeder",
-            "id": "comfyui-image-feeder",
-            "reference": "https://github.com/ketle-man/comfyui-image-feeder",
-            "files": [
-                "https://github.com/ketle-man/comfyui-image-feeder"
-            ],
-            "install_type": "git-clone",
-            "description": "A node for looping through images in a folder with a visual 3-pane library UI, preset support, and i18n (EN/JA/ZH)."
-        },
-        {
             "author": "senjinthedragon",
             "title": "ComfyUI Gender Tag Filter",
             "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
@@ -47182,17 +47171,6 @@
             ],
             "install_type": "git-clone",
             "description": "A project for pose alignment and human body proportion mapping based on SDPose."
-        },
-        {
-            "author": "gzsiang",
-            "title": "ComfyUI-VolcEngine",
-            "id": "comfyui-volcengine",
-            "reference": "https://github.com/gzsiang/ComfyUI-VolcEngine",
-            "files": [
-                "https://github.com/gzsiang/ComfyUI-VolcEngine"
-            ],
-            "install_type": "git-clone",
-            "description": "VolcEngine (火山引擎) video and image generation nodes. Supports Seedance (text-to-video, image-to-video with audio reference) and Seedream (text-to-image, image-to-image) models via Ark API."
         },
         {
             "author": "KingManiya",

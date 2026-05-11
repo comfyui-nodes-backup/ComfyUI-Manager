@@ -1,6 +1,28 @@
 {
     "custom_nodes": [
         {
+            "author": "gzsiang",
+            "title": "[LOCALE ISSUE] ComfyUI-VolcEngine",
+            "id": "comfyui-volcengine",
+            "reference": "https://github.com/gzsiang/ComfyUI-VolcEngine",
+            "files": [
+                "https://github.com/gzsiang/ComfyUI-VolcEngine"
+            ],
+            "install_type": "git-clone",
+            "description": "VolcEngine (火山引擎) video and image generation nodes. Supports Seedance (text-to-video, image-to-video with audio reference) and Seedream (text-to-image, image-to-image) models via Ark API."
+        },
+        {
+            "author": "ketle-man",
+            "title": "[LOCALE ISSUE] ComfyUI Image Feeder",
+            "id": "comfyui-image-feeder",
+            "reference": "https://github.com/ketle-man/comfyui-image-feeder",
+            "files": [
+                "https://github.com/ketle-man/comfyui-image-feeder"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for looping through images in a folder with a visual 3-pane library UI, preset support, and i18n (EN/JA/ZH)."
+        },
+        {
             "author": "ethanfel",
             "title": "Comfyui-Return-Run-Logic",
             "reference": "https://github.com/ethanfel/Comfyui-Return-Run-Logic",
