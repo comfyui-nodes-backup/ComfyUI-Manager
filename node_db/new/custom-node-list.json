@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "sequencer-media",
+            "title": "Sequencer AI Nodes",
+            "reference": "https://github.com/sequencer-media/sequencer-comfy-nodes",
+            "files": [
+                "https://github.com/sequencer-media/sequencer-comfy-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "One universal node for all 50+ Sequencer AI models. Generate images, videos, and audio (Veo 3.1, Flux 1.1 Pro, Kling, Ideogram, etc). dynamically populates model lists and I/O sockets."
+        },
+        {
             "author": "AabhasTech",
             "title": "ComfyUI Fast Preview",
             "reference": "https://github.com/AabhasTech/ComfyUI_Fast_Preview",
