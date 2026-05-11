@@ -78,6 +78,17 @@
             "install_type": "git-clone",
             "description": "This is a helper extension for ComfyUI that assists with node connections."
         },
+		{
+            "author": "SOLRICKS",
+            "title": "ComfyUI-SOLRICKS",
+            "id": "comfyui-solricks",
+            "reference": "https://github.com/SOLRICKS/comfyui-solricks",
+            "files": [
+                "https://github.com/SOLRICKS/comfyui-solricks"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Video Anti-Aliasing Pack"
+        },
         {
             "author": "Dr.Lt.Data",
             "title": "WAS Node Suite (Revised)",
