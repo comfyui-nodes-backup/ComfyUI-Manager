@@ -46802,7 +46802,7 @@
             "title": "comfy-vllm",
             "reference": "https://github.com/OATH-Studio/comfy-vLLM",
             "files": [
-                "https://raw.githubusercontent.com/OATH-Studio/comfy-vLLM/refs/heads/main/vllm_node.py"
+                "https://github.com/OATH-Studio/comfy-vLLM"
             ],
             "install_type": "git-clone",
             "description": "https://www.theoath.studio/projects/comfy-vllm-node Generates Stable Diffusion prompts using a locally running vLLM server. Supports {wild|card} expansion, a prefix field for quality tags, auto model detection via /v1/models, live preview on the node face, and configurable retry logic. No API keys or internet connection required. Wire the single output directly into CLIPTextEncode."
@@ -46812,10 +46812,21 @@
             "title": "comfy-lora-iterator",
             "reference": "https://github.com/OATH-Studio/comfy-LoRA-iterator",
             "files": [
-                "https://raw.githubusercontent.com/OATH-Studio/comfy-LoRA-iterator/refs/heads/main/lora_iterator.py"
+                "https://github.com/OATH-Studio/comfy-LoRA-iterator"
             ],
             "install_type": "git-clone",
             "description": "https://www.theoath.studio/projects/comfy-lora-iterator A ComfyUI node that automatically steps through every LoRA in a directory on each generation run. Increment, decrement, randomize, or hold fixed. No rewiring. No manual switching. Queue and walk away."
+        },
+        {
+            "author": "RandyHaylor",
+            "title": "Claude CLI (Vision+Text)",
+            "id": "comfyui-claude-cli-vision-text-node",
+            "reference": "https://github.com/RandyHaylor/comfyui-claude-cli-vision-text-node",
+            "files": [
+                "https://github.com/RandyHaylor/comfyui-claude-cli-vision-text-node"
+            ],
+            "install_type": "git-clone",
+            "description": "Call the local `claude` CLI from ComfyUI for vision+text or text-only completions. Uses your existing `claude login` OAuth (no API key required). Supports UUID session reuse for prompt-cache savings, with session token-usage tracking. Additional utility nodes: `Split Image Batch to List of Image Batches` (takes a large incoming batch and splits it into a list of smaller sub-batches with start/end index outputs, so you can send N images at a time — e.g. pairs — to the Claude CLI node along with their original batch indices for tracking), `Indexed 2x2 Grid from Batch`, `Select Images (Bounds Safe)`, and `Image Batch Current Index`. Optional headless API-key mode."
         },
 
 
@@ -47207,17 +47218,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "RandyHaylor",
-            "title": "Claude CLI (Vision+Text)",
-            "id": "comfyui-claude-cli-vision-text-node",
-            "reference": "https://github.com/RandyHaylor/comfyui-claude-cli-vision-text-node",
-            "files": [
-                "https://github.com/RandyHaylor/comfyui-claude-cli-vision-text-node"
-            ],
-            "install_type": "git-clone",
-            "description": "Call the local `claude` CLI from ComfyUI for vision+text or text-only completions. Uses your existing `claude login` OAuth (no API key required). Supports UUID session reuse for prompt-cache savings, with session token-usage tracking. Additional utility nodes: `Split Image Batch to List of Image Batches` (takes a large incoming batch and splits it into a list of smaller sub-batches with start/end index outputs, so you can send N images at a time — e.g. pairs — to the Claude CLI node along with their original batch indices for tracking), `Indexed 2x2 Grid from Batch`, `Select Images (Bounds Safe)`, and `Image Batch Current Index`. Optional headless API-key mode."
         }
     ]
 }
