@@ -46828,6 +46828,17 @@
             "install_type": "git-clone",
             "description": "Call the local `claude` CLI from ComfyUI for vision+text or text-only completions. Uses your existing `claude login` OAuth (no API key required). Supports UUID session reuse for prompt-cache savings, with session token-usage tracking. Additional utility nodes: `Split Image Batch to List of Image Batches` (takes a large incoming batch and splits it into a list of smaller sub-batches with start/end index outputs, so you can send N images at a time — e.g. pairs — to the Claude CLI node along with their original batch indices for tracking), `Indexed 2x2 Grid from Batch`, `Select Images (Bounds Safe)`, and `Image Batch Current Index`. Optional headless API-key mode."
         },
+        {
+            "author": "namemechan",
+            "title": "ComfyUI-DCW",
+            "id": "comfyui-dcw",
+            "reference": "https://github.com/namemechan/ComfyUI-DCW",
+            "files": [
+                "https://github.com/namemechan/ComfyUI-DCW"
+            ],
+            "install_type": "git-clone",
+            "description": "Near implementation of Differential Correction in Wavelet domain (DCW) for SNR-t bias correction. Based on arXiv:2604.16044 (Yu et al., 2026). No external dependencies. Compatible with SDXL, SD1.5, Flux, Cosmos, EDM, DiT. (README in Korean)"
+        },
 
 
 
@@ -47218,17 +47229,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "namemechan",
-            "title": "ComfyUI-DCW",
-            "id": "comfyui-dcw",
-            "reference": "https://github.com/namemechan/ComfyUI-DCW",
-            "files": [
-                "https://github.com/namemechan/ComfyUI-DCW"
-            ],
-            "install_type": "git-clone",
-            "description": "Near implementation of Differential Correction in Wavelet domain (DCW) for SNR-t bias correction. Based on arXiv:2604.16044 (Yu et al., 2026). No external dependencies. Compatible with SDXL, SD1.5, Flux, Cosmos, EDM, DiT. (README in Korean)"
         }
     ]
 }
