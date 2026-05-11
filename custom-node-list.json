@@ -47193,6 +47193,16 @@
             "install_type": "git-clone",
             "description": "Process text and images with GGUF LLMs in ComfyUI using llama.cpp, including Qwen3-VL, Qwen3.5, Qwen3.6, Gemma 4, and gpt-oss."
         },
+        {
+            "author": "AabhasTech",
+            "title": "ComfyUI Fast Preview",
+            "reference": "https://github.com/AabhasTech/ComfyUI_Fast_Preview",
+            "files": [
+                "https://github.com/AabhasTech/ComfyUI_Fast_Preview"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight node to compress and preview images using the temp directory, displaying file sizes on the node UI."
+        },
 
 
 

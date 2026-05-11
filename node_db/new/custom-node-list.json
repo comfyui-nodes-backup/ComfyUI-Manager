@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "AabhasTech",
+            "title": "ComfyUI Fast Preview",
+            "reference": "https://github.com/AabhasTech/ComfyUI_Fast_Preview",
+            "files": [
+                "https://github.com/AabhasTech/ComfyUI_Fast_Preview"
+            ],
+            "install_type": "git-clone",
+            "description": "A lightweight node to compress and preview images using the temp directory, displaying file sizes on the node UI."
+        },
+        {
             "author": "KingManiya",
             "title": "LLM Text Processor",
             "reference": "https://github.com/KingManiya/ComfyUI-LLM-text-processor",
