@@ -31282,6 +31282,16 @@
             "description": "A custom node for ComfyUI that performs speaker diarization to isolate individual speaker audio tracks from a single audio source."
         },
         {
+            "author": "pmarmotte2",
+            "title": "Comfyui-Pick_Any",
+            "reference": "https://github.com/pmarmotte2/Comfyui_Pick_Any",
+            "files": [
+                "https://github.com/pmarmotte2/Comfyui_Pick_Any"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced chooser nodes for ComfyUI that let workflows pause for image, audio, or text selection, with optional automatic picking and series helper nodes."
+        },
+        {
             "author": "IIEleven11",
             "title": "ComfyUI-FairyTaler",
             "reference": "https://github.com/IIEleven11/ComfyUI-FairyTaler",
