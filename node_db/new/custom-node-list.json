@@ -1,6 +1,116 @@
 {
     "custom_nodes": [
         {
+            "author": "Your Name",
+            "title": "comfyui-plugins",
+            "reference": "https://github.com/HDembinski/comfyui_plugins",
+            "files": [
+                "https://github.com/HDembinski/comfyui_plugins"
+            ],
+            "install_type": "git-clone",
+            "description": "Starter scaffold for developing ComfyUI custom nodes."
+        },
+        {
+            "author": "bnwa",
+            "title": "Comfy Combos",
+            "reference": "https://github.com/bnwa/comfy_combos",
+            "files": [
+                "https://github.com/bnwa/comfy_combos"
+            ],
+            "install_type": "git-clone",
+            "description": "Dropdown selectors for ComfyUI"
+        },
+        {
+            "author": "solricks",
+            "title": "comfyui-solricks",
+            "reference": "https://github.com/SOLRICKS/comfyui-solricks",
+            "files": [
+                "https://github.com/SOLRICKS/comfyui-solricks"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI Video Anti-Aliasing Pack"
+        },
+        {
+            "author": "machinepainting",
+            "title": "MachinePainting Nodes",
+            "reference": "https://github.com/machinepainting/ComfyUI-MachinePaintingNodes",
+            "files": [
+                "https://github.com/machinepainting/ComfyUI-MachinePaintingNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Professional photo editing tools for ComfyUI. Features Photoshop-style curves, levels, and color adjustments, AI-powered masking / background removal, LUT color grading, advanced channel masking, color management, and advanced workflow utility tools. Built to help you take your AI-generated images to the next level."
+        },
+        {
+            "author": "bemoregt",
+            "title": "ComfyUI_AdversarialAttack",
+            "reference": "https://github.com/bemoregt/ComfyUI_AdversarialAttack",
+            "files": [
+                "https://github.com/bemoregt/ComfyUI_AdversarialAttack"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node set that generates adversarial examples using a pretrained ResNet18 classifier."
+        },
+        {
+            "author": "bemoregt",
+            "title": "ComfyUI_FFTNet",
+            "reference": "https://github.com/bemoregt/ComfyUI_FFTNet",
+            "files": [
+                "https://github.com/bemoregt/ComfyUI_FFTNet"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for FFTNet language model inference using efficient FFT-based global token mixing as an alternative to self-attention. (Description by CC)"
+        },
+        {
+            "author": "polly-creative",
+            "title": "ComfyUI_Polly_Nodes",
+            "reference": "https://github.com/polly-creative/ComfyUI_Polly_Nodes",
+            "files": [
+                "https://github.com/polly-creative/ComfyUI_Polly_Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "A collection of high-quality texture utility nodes for technical artists and environment designers with precision masking and color extraction for emissive materials."
+        },
+        {
+            "author": "throttlekitty",
+            "title": "tkNodes",
+            "reference": "https://github.com/throttlekitty/tkNodes",
+            "files": [
+                "https://github.com/throttlekitty/tkNodes"
+            ],
+            "install_type": "git-clone",
+            "description": "This node allows you to loop through specified layers in the LTX 2.3 model to potentially improve output quality with an eye toward artifacts in high motion."
+        },
+        {
+            "author": "karcsiha",
+            "title": "comfyUi-deflicker",
+            "reference": "https://github.com/karcsiha/comfyUi-deflicker",
+            "files": [
+                "https://github.com/karcsiha/comfyUi-deflicker"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for removing brightness flicker and chunk boundary artifacts in AI-generated video sequences (WAN, VACE, FramePack, etc.)."
+        },
+        {
+            "author": "Experience-Monks",
+            "title": "Monks-Prompt-Enhancer-ComfyUI-Node",
+            "reference": "https://github.com/Experience-Monks/Monks-Prompt-Enhancer-ComfyUI-Node",
+            "files": [
+                "https://github.com/Experience-Monks/Monks-Prompt-Enhancer-ComfyUI-Node"
+            ],
+            "install_type": "git-clone",
+            "description": "A ComfyUI custom node that uses the Gemini API to rewrite a raw prompt into one optimised for a specific image generation model and workflow."
+        },
+        {
+            "author": "Mervent",
+            "title": "comfyui-model-randomizer",
+            "reference": "https://github.com/Mervent/comfyui-model-randomizer",
+            "files": [
+                "https://github.com/Mervent/comfyui-model-randomizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node for ComfyUI that randomly selects a checkpoint from a configurable list of models with weighted selection, per-model CFG ranges, and enable/disable toggles."
+        },
+        {
             "author": "Moeblack",
             "title": "ComfyUI-AnimaTool",
             "id": "comfyui-animatool",
