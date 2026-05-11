@@ -1791,6 +1791,17 @@
             "description": "A floating preview window node for ComfyUI. Ideal for multi-monitor setups."
         },
         {
+            "author": "nekodificador",
+            "title": "ComfyUI-MaskToTransparent",
+            "reference": "https://github.com/Warningning/ComfyUI-MaskToTransparent",
+            "files": [
+                "https://github.com/Warningning/ComfyUI-MaskToTransparent"
+            ],
+            "install_type": "git-clone",
+            "description": "Turn black mask areas into transparent pixels with edge feathering, ideal for SAM object extraction.",
+            "tags": ["mask", "transparent", "alpha", "image", "matting"]
+        },
+        {
             "author": "darksidewalker",
             "description": "DaSiWa Custom Nodes Collection",
             "id": "dasiwa",
@@ -1800,17 +1811,6 @@
                 "https://github.com/darksidewalker/ComfyUI-DaSiWa-Nodes"
             ],
             "title": "ComfyUI-DaSiWa-Nodes"
-        },
-		{
-			"author": "nekodificador",
-		  	"title": "ComfyUI-MaskToTransparent",
-		  	"reference": "https://github.com/Warningning/ComfyUI-MaskToTransparent",
-		  	"files": [
-				"https://github.com/Warningning/ComfyUI-MaskToTransparent"
-			],
-		  	"install_type": "git-clone",
-		  	"description": "Turn black mask areas into transparent pixels with edge feathering, ideal for SAM object extraction.",
-		  	"tags": ["mask", "transparent", "alpha", "image", "matting"]
-		}
+        }
     ]
 }
