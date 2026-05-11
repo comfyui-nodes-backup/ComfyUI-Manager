@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "wuwukaka",
+            "title": "ComfyUI-BodyRatioMapper",
+            "reference": "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper",
+            "files": [
+                "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A project for pose alignment and human body proportion mapping based on SDPose."
+        },
+        {
             "author": "namemechan",
             "title": "ComfyUI-DCW",
             "id": "comfyui-dcw",

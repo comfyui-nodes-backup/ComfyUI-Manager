@@ -46839,6 +46839,16 @@
             "install_type": "git-clone",
             "description": "Near implementation of Differential Correction in Wavelet domain (DCW) for SNR-t bias correction. Based on arXiv:2604.16044 (Yu et al., 2026). No external dependencies. Compatible with SDXL, SD1.5, Flux, Cosmos, EDM, DiT. (README in Korean)"
         },
+        {
+            "author": "wuwukaka",
+            "title": "ComfyUI-BodyRatioMapper",
+            "reference": "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper",
+            "files": [
+                "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper"
+            ],
+            "install_type": "git-clone",
+            "description": "A project for pose alignment and human body proportion mapping based on SDPose."
+        },
 
 
 
@@ -47229,16 +47239,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-         },
-		{
-            "author": "wuwukaka",
-            "title": "ComfyUI-BodyRatioMapper",
-            "reference": "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper",
-            "files": [
-                "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper"
-            ],
-            "install_type": "git-clone",
-            "description": "A project for pose alignment and human body proportion mapping based on SDPose."
         }
     ]
 }
