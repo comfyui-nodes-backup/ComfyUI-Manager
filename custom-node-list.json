@@ -47172,6 +47172,17 @@
             "install_type": "git-clone",
             "description": "A project for pose alignment and human body proportion mapping based on SDPose."
         },
+        {
+            "author": "gzsiang",
+            "title": "ComfyUI-VolcEngine",
+            "id": "comfyui-volcengine",
+            "reference": "https://github.com/gzsiang/ComfyUI-VolcEngine",
+            "files": [
+                "https://github.com/gzsiang/ComfyUI-VolcEngine"
+            ],
+            "install_type": "git-clone",
+            "description": "VolcEngine (火山引擎) video and image generation nodes. Supports Seedance (text-to-video, image-to-video with audio reference) and Seedream (text-to-image, image-to-image) models via Ark API."
+        },
 
 
 
@@ -47562,17 +47573,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "gzsiang",
-            "title": "ComfyUI-VolcEngine",
-            "id": "comfyui-volcengine",
-            "reference": "https://github.com/gzsiang/ComfyUI-VolcEngine",
-            "files": [
-                "https://github.com/gzsiang/ComfyUI-VolcEngine"
-            ],
-            "install_type": "git-clone",
-            "description": "VolcEngine (火山引擎) video and image generation nodes. Supports Seedance (text-to-video, image-to-video with audio reference) and Seedream (text-to-image, image-to-image) models via Ark API."
         }
     ]
 }

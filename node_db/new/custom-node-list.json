@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "gzsiang",
+            "title": "ComfyUI-VolcEngine",
+            "id": "comfyui-volcengine",
+            "reference": "https://github.com/gzsiang/ComfyUI-VolcEngine",
+            "files": [
+                "https://github.com/gzsiang/ComfyUI-VolcEngine"
+            ],
+            "install_type": "git-clone",
+            "description": "VolcEngine (火山引擎) video and image generation nodes. Supports Seedance (text-to-video, image-to-video with audio reference) and Seedream (text-to-image, image-to-image) models via Ark API."
+        },
+        {
             "author": "wuwukaka",
             "title": "ComfyUI-BodyRatioMapper",
             "reference": "https://github.com/wuwukaka/ComfyUI-BodyRatioMapper",
