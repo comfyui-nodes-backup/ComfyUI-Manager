@@ -78,17 +78,6 @@
             "install_type": "git-clone",
             "description": "This is a helper extension for ComfyUI that assists with node connections."
         },
-		{
-            "author": "SOLRICKS",
-            "title": "ComfyUI-SOLRICKS",
-            "id": "comfyui-solricks",
-            "reference": "https://github.com/SOLRICKS/comfyui-solricks",
-            "files": [
-                "https://github.com/SOLRICKS/comfyui-solricks"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI Video Anti-Aliasing Pack"
-        },
         {
             "author": "Dr.Lt.Data",
             "title": "WAS Node Suite (Revised)",
@@ -46737,8 +46726,9 @@
             "description": "This node allows you to loop through specified layers in the LTX 2.3 model to potentially improve output quality with an eye toward artifacts in high motion."
         },
         {
-            "author": "solricks",
-            "title": "comfyui-solricks",
+            "author": "SOLRICKS",
+            "title": "ComfyUI-SOLRICKS",
+            "id": "comfyui-solricks",
             "reference": "https://github.com/SOLRICKS/comfyui-solricks",
             "files": [
                 "https://github.com/SOLRICKS/comfyui-solricks"

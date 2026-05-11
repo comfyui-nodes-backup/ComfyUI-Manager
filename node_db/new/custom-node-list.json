@@ -21,8 +21,9 @@
             "description": "Dropdown selectors for ComfyUI"
         },
         {
-            "author": "solricks",
-            "title": "comfyui-solricks",
+            "author": "SOLRICKS",
+            "title": "ComfyUI-SOLRICKS",
+            "id": "comfyui-solricks",
             "reference": "https://github.com/SOLRICKS/comfyui-solricks",
             "files": [
                 "https://github.com/SOLRICKS/comfyui-solricks"
