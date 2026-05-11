@@ -1,6 +1,17 @@
 {
     "custom_nodes": [
         {
+            "author": "ketle-man",
+            "title": "ComfyUI Image Feeder",
+            "id": "comfyui-image-feeder",
+            "reference": "https://github.com/ketle-man/comfyui-image-feeder",
+            "files": [
+                "https://github.com/ketle-man/comfyui-image-feeder"
+            ],
+            "install_type": "git-clone",
+            "description": "A node for looping through images in a folder with a visual 3-pane library UI, preset support, and i18n (EN/JA/ZH)."
+        },
+        {
             "author": "sequencer-media",
             "title": "Sequencer AI Nodes",
             "reference": "https://github.com/sequencer-media/sequencer-comfy-nodes",
