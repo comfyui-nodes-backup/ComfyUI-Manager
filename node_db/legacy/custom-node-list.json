@@ -1,6 +1,126 @@
 {
     "custom_nodes": [
         {
+            "author": "yojimbodayne",
+            "title": "ComfyUI-Dropbox-API [WIP] [REMOVED]",
+            "reference": "https://github.com/yojimbodayne/ComfyUI-Dropbox-API",
+            "files": [
+                "https://github.com/yojimbodayne/ComfyUI-Dropbox-API"
+            ],
+            "install_type": "git-clone",
+            "description": "This custom nodepackage for ComfyUI allows users to interact with Dropbox API, enabling image, text, and video uploads, downloads, and management directly from ComfyUI workflows.\nNOTE: The files in the repo are not organized."
+        },
+        {
+            "author": "tfernd",
+            "title": "Auto CPU Offload for ComfyUI [WIP] [REMOVED]",
+            "reference": "https://github.com/tfernd/ComfyUI-AutoCPUOffload",
+            "files": [
+                "https://github.com/tfernd/ComfyUI-AutoCPUOffload"
+            ],
+            "install_type": "git-clone",
+            "description": "This extension introduces an 'Auto CPU Offload' node designed to reduce GPU VRAM usage by automatically offloading model components to the CPU. It intelligently manages the movement of model layers between the GPU and CPU, aiming to keep only the necessary parts in VRAM during inference."
+        },
+        {
+            "author": "stalkervr",
+            "title": "Custom Path Nodes for ComfyUI [UNSAFE] [REMOVED]",
+            "reference": "https://github.com/stalkervr/comfyui-custom-path-nodes",
+            "files": [
+                "https://github.com/stalkervr/comfyui-custom-path-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes for path handling and image cropping.[w/This nodepack contains a node that has a vulnerability allowing access to arbitrary file paths.]"
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI-send-eagle-pro [REMOVED]",
+            "reference": "https://github.com/Charonartist/ComfyUI-send-eagle-pro_2",
+            "files": [
+                "https://github.com/Charonartist/ComfyUI-send-eagle-pro_2"
+            ],
+            "install_type": "git-clone",
+            "description": "Eagle integration extension node for ComfyUI (Pro version)"
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI LoRA Random Selector [REMOVED]",
+            "reference": "https://github.com/Charonartist/comfyui-lora-random-selector",
+            "files": [
+                "https://github.com/Charonartist/comfyui-lora-random-selector"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES: WanMoeKSampler, WanMoeKSamplerAdvanced"
+        },
+        {
+            "author": "bpmpnaito",
+            "title": "comfyui-imageviewer [REMOVED]",
+            "reference": "https://github.com/bpmpnaito/comfyui-imageviewer",
+            "files": [
+                "https://github.com/bpmpnaito/comfyui-imageviewer"
+            ],
+            "install_type": "git-clone",
+            "description": "Image viewer node that displays preview of images directly in the node."
+        },
+        {
+            "author": "leonardomiramondi",
+            "title": "Flux Context ComfyUI Node [REMOVED]",
+            "reference": "https://github.com/leonardomiramondi/flux-context-comfyui",
+            "files": [
+                "https://github.com/leonardomiramondi/flux-context-comfyui"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI node for Flux Context (Kontext) image editing"
+        },
+        {
+            "author": "Charonartist",
+            "title": "comfyui-lmstudio-conversation [REMOVED]",
+            "reference": "https://github.com/Charonartist/comfyui-lmstudio-conversation",
+            "files": [
+                "https://github.com/Charonartist/comfyui-lmstudio-conversation"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom nodes for LM Studio integration with conversation history support "
+        },
+        {
+            "author": "Charonartist",
+            "title": "comfyui-last-frame-extractor [REMOVED]",
+            "reference": "https://github.com/Charonartist/comfyui-last-frame-extractor",
+            "files": [
+                "https://github.com/Charonartist/comfyui-last-frame-extractor"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI custom node that extracts the last frame (image) from an input image batch. It is particularly useful when you want to obtain the final scene or frame in a video generation workflow."
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI Tag Remover [REMOVED]",
+            "reference": "https://github.com/Charonartist/comfyui-tag-remover",
+            "files": [
+                "https://github.com/Charonartist/comfyui-tag-remover"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI custom node for removing specified tags and their content from text"
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI Smart Resize Node [REMOVED]",
+            "reference": "https://github.com/Charonartist/comfyui-smart-resize-node",
+            "files": [
+                "https://github.com/Charonartist/comfyui-smart-resize-node"
+            ],
+            "install_type": "git-clone",
+            "description": "Smart resize node for ComfyUI that handles portrait/landscape images with short/long side specification"
+        },
+        {
+            "author": "Charonartist",
+            "title": "ComfyUI Auto LoRA [REMOVED]",
+            "reference": "https://github.com/Charonartist/comfyui-auto-lora-v2",
+            "files": [
+                "https://github.com/Charonartist/comfyui-auto-lora-v2"
+            ],
+            "install_type": "git-clone",
+            "description": "This is a ComfyUI custom node that automatically detects trigger words from text prompts and applies the corresponding LoRA models."
+        },
+        {
             "author": "qlikpetersen",
             "title": "ComfyUI-AI_Tools [UNSAFE] [REMOVED]",
             "reference": "https://github.com/qlikpetersen/ComfyUI-AI_Tools",
