@@ -65306,5 +65306,15 @@
         {
             "title_aux": "SDXLResolutionPresets"
         }
+    ],
+    "https://github.com/dreamrec/ComfyUI-Pixal3D": [
+        [
+            "Pixal3DLoadPipeline",
+            "Pixal3DImageToMesh",
+            "Pixal3DFreePipeline"
+        ],
+        {
+            "title_aux": "ComfyUI-Pixal3D"
+        }
     ]
 }
