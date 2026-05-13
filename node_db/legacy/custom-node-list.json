@@ -1,6 +1,46 @@
 {
     "custom_nodes": [
         {
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-MeshCraft [REMOVED]",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-MeshCraft"
+            ],
+            "install_type": "git-clone",
+            "description": "A custom node that crops images to specified dimensions from a center point with optional offset"
+        },
+        {
+            "author": "PozzettiAndrea",
+            "title": "ComfyUI-HunyuanX [REMOVED]",
+            "reference": "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX",
+            "files": [
+                "https://github.com/PozzettiAndrea/ComfyUI-HunyuanX"
+            ],
+            "install_type": "git-clone",
+            "description": "Hunyuan 3D 2.1 image-to-3D generation nodes for ComfyUI with PBR texturing and model caching. Granular control for research."
+        },
+        {
+            "author": "orpheus-gaze",
+            "title": "comfyui-s2-guidance-test [REMOVED]",
+            "reference": "https://github.com/orpheus-gaze/comfyui-s2-guidance-test",
+            "files": [
+                "https://github.com/orpheus-gaze/comfyui-s2-guidance-test"
+            ],
+            "install_type": "git-clone",
+            "description": "An attempted implementation of S2 guidance for DIT diffusion models in ComfyUI, currently hardcoded for Flux model architecture to improve image sharpness and brightness."
+        },
+        {
+            "author": "abdullahceylan",
+            "title": "AC Image Optimizer [REMOVED]",
+            "reference": "https://github.com/abdullahceylan/ac-comfyui-image-optimizer",
+            "files": [
+                "https://github.com/abdullahceylan/ac-comfyui-image-optimizer"
+            ],
+            "install_type": "git-clone",
+            "description": "A powerful ComfyUI custom node for optimizing and compressing images with support for multiple formats (JPEG, WebP, PNG) and configurable quality settings."
+        },
+        {
             "author": "yojimbodayne",
             "title": "ComfyUI-Dropbox-API [WIP] [REMOVED]",
             "reference": "https://github.com/yojimbodayne/ComfyUI-Dropbox-API",
