@@ -65306,5 +65306,16 @@
         {
             "title_aux": "SDXLResolutionPresets"
         }
+    ],
+    "https://github.com/ketle-man/model-and-prompt-from-metadata": [
+        [
+            "ImageMetadataCheckpointLoader",
+            "ImageMetadataPromptLoader",
+            "ImageMetadataLoRALoader",
+            "CLIPTextEncodeEditPlus"
+        ],
+        {
+            "title_aux": "Model and Prompt from Metadata"
+        }
     ]
 }
