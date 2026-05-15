@@ -1321,6 +1321,7 @@
             "VTS Images Crop From Masks",
             "VTS Images Scale",
             "VTS Images Scale To Min",
+            "VTS KSampler",
             "VTS Latent Batch To List",
             "VTS Latent List To Batch",
             "VTS Looping K Sampler",
@@ -1334,6 +1335,7 @@
             "VTS Render People Kps",
             "VTS Repeat Text As List",
             "VTS Replace Text In List",
+            "VTS SeedList",
             "VTS Sharpen",
             "VTS TAE Video Decode",
             "VTS TAE Video Encode",
@@ -1346,6 +1348,7 @@
             "VTS VAE Encode Tiled",
             "VTSGenericImageWrapper",
             "VTSLTXAddVideoICLoRAGuide",
+            "VTS_BBox_To_Normalized_Text_List",
             "VTS_Load_Pose_Keypoints",
             "Vts Text To Batch Prompt"
         ],
@@ -3185,6 +3188,7 @@
             "MpiJsonLoad",
             "MpiJsonSave",
             "MpiListCount",
+            "MpiListRange",
             "MpiLogger",
             "MpiLoraModel",
             "MpiLoraModelClip",
@@ -3816,8 +3820,10 @@
             "DualEndpointColorBlendScheduler",
             "GemmaAPITextEncode",
             "LightLeaksTransition",
+            "LoadInpaintCropCache",
             "MaskClampedCrop",
-            "MaskClampedCropSticky"
+            "MaskClampedCropSticky",
+            "SaveInpaintCropCache"
         ],
         {
             "title_aux": "ComfyUI-OmarioNodes"
@@ -7060,6 +7066,7 @@
             "ByteDanceImageReferenceNode",
             "ByteDanceImageToVideoNode",
             "ByteDanceSeedreamNode",
+            "ByteDanceSeedreamNodeV2",
             "ByteDanceTextToVideoNode",
             "CFGGuider",
             "CFGNorm",
@@ -7147,6 +7154,7 @@
             "EmptyChromaRadianceLatentImage",
             "EmptyCosmosLatentVideo",
             "EmptyFlux2LatentImage",
+            "EmptyHiDreamO1LatentImage",
             "EmptyHunyuanImageLatent",
             "EmptyHunyuanLatentVideo",
             "EmptyImage",
@@ -7162,6 +7170,7 @@
             "ExtendIntermediateSigmas",
             "FeatherMask",
             "FlipSigmas",
+            "Flux2ImageNode",
             "Flux2ProImageNode",
             "Flux2Scheduler",
             "FluxDisableGuidance",
@@ -7192,6 +7201,7 @@
             "GetImageSize",
             "GetVideoComponents",
             "GrokImageEditNode",
+            "GrokImageEditNodeV2",
             "GrokImageNode",
             "GrokVideoEditNode",
             "GrokVideoExtendNode",
@@ -7202,6 +7212,8 @@
             "HappyHorseReferenceVideoApi",
             "HappyHorseTextToVideoApi",
             "HappyHorseVideoEditApi",
+            "HiDreamO1PatchSeamSmoothing",
+            "HiDreamO1ReferenceImages",
             "HitPawGeneralImageEnhance",
             "HitPawVideoEnhance",
             "Hunyuan3Dv2Conditioning",
@@ -7394,6 +7406,7 @@
             "ModelMergeSimple",
             "ModelMergeSubtract",
             "ModelMergeWAN2_1",
+            "ModelNoiseScale",
             "ModelPatchLoader",
             "ModelSamplingAuraFlow",
             "ModelSamplingContinuousEDM",
@@ -7412,6 +7425,7 @@
             "OpenAIDalle2",
             "OpenAIDalle3",
             "OpenAIGPTImage1",
+            "OpenAIGPTImageNodeV2",
             "OpenAIInputFiles",
             "OpenAIVideoSora2",
             "OpticalFlowLoader",
@@ -7514,6 +7528,7 @@
             "SamplerEulerAncestral",
             "SamplerEulerAncestralCFGPP",
             "SamplerEulerCFGpp",
+            "SamplerLCM",
             "SamplerLCMUpscale",
             "SamplerLMS",
             "SamplerSASolver",
@@ -9044,6 +9059,16 @@
             "title_aux": "ComfyUI-Telegram-Sender [UNSAFE]"
         }
     ],
+    "https://github.com/gzsiang/ComfyUI-VolcEngine": [
+        [
+            "VolcEngineImageGeneration",
+            "VolcEngineImageToVideo",
+            "VolcEngineTextToVideo"
+        ],
+        {
+            "title_aux": "[LOCALE ISSUE] ComfyUI-VolcEngine"
+        }
+    ],
     "https://github.com/haodman/ComfyUI_Rain": [
         [
             "Rain_ImageSize",
@@ -10158,6 +10183,14 @@
         ],
         {
             "title_aux": "Comfyui : kesslerdev_comfyui_nodes [UNSAFE]"
+        }
+    ],
+    "https://github.com/ketle-man/comfyui-image-feeder": [
+        [
+            "ImageFeeder"
+        ],
+        {
+            "title_aux": "[LOCALE ISSUE] ComfyUI Image Feeder"
         }
     ],
     "https://github.com/kevin314/ComfyUI-FastVideo": [
@@ -11664,6 +11697,7 @@
             "DictSetMulti",
             "DynamicComboNode",
             "DynamicTwinNode",
+            "FileNameTemplate",
             "GenerationDataGet",
             "GenerationDataMaxSize",
             "GenerationDataSet",
@@ -12432,6 +12466,7 @@
             "Join [Eclipse]",
             "Keep Calculator [Eclipse]",
             "Latent Passer [Eclipse]",
+            "Load Audio [Eclipse]",
             "Load Directory Settings [Eclipse]",
             "Load Image (Metadata Pipe) [Eclipse]",
             "Load Image (Pipe) [Eclipse]",
@@ -12439,6 +12474,7 @@
             "Load Image From Folder [Eclipse]",
             "Load Image from Path (Metadata Pipe) [Eclipse]",
             "Load Image from Path (Metadata) [Eclipse]",
+            "Loop Calculator Audio [Eclipse]",
             "Loop Calculator [Eclipse]",
             "Lora Stack [Eclipse]",
             "Lora Stack apply [Eclipse]",
@@ -12477,6 +12513,7 @@
             "Preview Image (DOM) [Eclipse]",
             "Preview Image [Eclipse]",
             "Preview Mask [Eclipse]",
+            "Preview Video [Eclipse]",
             "Prompt Styler [Eclipse]",
             "QuadrupleCLIPLoaderGGUF",
             "RAM Cleanup [Eclipse]",
@@ -12501,6 +12538,7 @@
             "Save Images [Eclipse]",
             "Save Images v2 [Eclipse]",
             "Save Prompt [Eclipse]",
+            "Save Video [Eclipse]",
             "Seamless Join Video Clips [Eclipse]",
             "Seed 32-bit [Eclipse]",
             "Seed [Eclipse]",
