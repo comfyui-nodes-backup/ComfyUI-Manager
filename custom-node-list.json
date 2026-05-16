@@ -47504,6 +47504,16 @@
                 "onnxruntime"
             ]
         },
+        {
+            "author": "WJLUOXIAO",
+            "title": "XB_ToolBox",
+            "reference": "https://github.com/WJLUOXIAO/XB_ToolBox",
+            "files": [
+                "https://github.com/WJLUOXIAO/XB_ToolBox"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive ComfyUI extension suite encompassing both front-end interaction and low-level memory scheduling, designed to help beginners master workflows and simplify local deployment."
+        },
 
 
 
@@ -47894,16 +47904,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-        "author": "WJLUOXIAO",
-        "title": "XB_ToolBox",
-        "reference": "https://github.com/WJLUOXIAO/XB_ToolBox",
-        "files": [
-            "https://github.com/WJLUOXIAO/XB_ToolBox"
-        ],
-        "install_type": "git-clone",
-        "description": "A comprehensive ComfyUI extension suite encompassing both front-end interaction and low-level memory scheduling, designed to help beginners master workflows and simplify local deployment."
-    }
+        }
     ]
 }
