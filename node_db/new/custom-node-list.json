@@ -1,6 +1,16 @@
 {
     "custom_nodes": [
         {
+            "author": "PlagueKind",
+            "title": "PlagueKind-Nodes",
+            "reference": "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes",
+            "files": [
+                "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes providing unified image and mask resizing with multiple scaling modes, aspect-ratio preservation, center crop alignment, and stable tensor-based mask transformations."
+        },
+        {
             "author": "ketle-man",
             "title": "Model and Prompt from Metadata",
             "id": "model-and-prompt-from-metadata",
