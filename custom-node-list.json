@@ -47556,6 +47556,16 @@
             "install_type": "git-clone",
             "description": "DWPose & NLF skeleton editor, retargeter, and renderer for ComfyUI. Extract body/hand/face keypoints (+ optional NLF 3D) from video, edit them frame-by-frame in a full-screen timeline + dope sheet + graph + 3D orbit editor with animated camera, retarget DWPose proportions per-cluster, and render clean pose images. Outputs standard ComfyUI types — drives WanAnimate, ControlNet, SCAIL, LTX-Video, UniAnimate, and any other pose-driven pipeline."
         },
+        {
+            "author": "PlagueKind",
+            "title": "PlagueKind-Nodes",
+            "reference": "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes",
+            "files": [
+                "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes providing unified image and mask resizing with multiple scaling modes, aspect-ratio preservation, center crop alignment, and stable tensor-based mask transformations."
+        },
 
 
 
@@ -47946,16 +47956,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "PlagueKind",
-            "title": "PlagueKind-Nodes",
-            "reference": "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes",
-            "files": [
-                "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes"
-            ],
-            "install_type": "git-clone",
-            "description": "Custom ComfyUI nodes providing unified image and mask resizing with multiple scaling modes, aspect-ratio preservation, center crop alignment, and stable tensor-based mask transformations."
         }
     ]
 }
