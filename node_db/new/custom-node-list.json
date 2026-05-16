@@ -1,14 +1,108 @@
 {
     "custom_nodes": [
         {
+            "author": "ketle-man",
+            "title": "Model and Prompt from Metadata",
+            "id": "model-and-prompt-from-metadata",
+            "reference": "https://github.com/ketle-man/model-and-prompt-from-metadata",
+            "files": [
+                "https://github.com/ketle-man/model-and-prompt-from-metadata"
+            ],
+            "install_type": "git-clone",
+            "description": "Drop a ComfyUI PNG/WebP/JSON onto the node to instantly extract and apply checkpoint, VAE, and prompts from embedded metadata. Supports ComfyUI, SD WebUI, SD Forge neo, Fooocus, SDXLPromptStyler, and Lora Loader (LoraManager). Includes LoRA from Metadata and CLIP Text Encode edit+ nodes."
+        },
+        {
+            "author": "Magos Digital Studio",
+            "title": "ComfyUI-Magos-Nodes",
+            "reference": "https://github.com/MagosDigitalStudio/ComfyUI-Magos-Nodes",
+            "files": [
+                "https://github.com/MagosDigitalStudio/ComfyUI-Magos-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "DWPose & NLF skeleton editor, retargeter, and renderer for ComfyUI. Extract body/hand/face keypoints (+ optional NLF 3D) from video, edit them frame-by-frame in a full-screen timeline + dope sheet + graph + 3D orbit editor with animated camera, retarget DWPose proportions per-cluster, and render clean pose images. Outputs standard ComfyUI types — drives WanAnimate, ControlNet, SCAIL, LTX-Video, UniAnimate, and any other pose-driven pipeline."
+        },
+        {
+            "author": "Anonymzx",
+            "title": "BangtrixToolkit",
+            "reference": "https://github.com/Anonymzx/BangtrixToolkit",
+            "files": [
+                "https://github.com/Anonymzx/BangtrixToolkit"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced ComfyUI toolkit with translation, AMD ROCm utilities, optimization, and workflow enhance"
+        },
+        {
+            "author": "pmarmotte2",
+            "title": "Comfyui-Pick_Any",
+            "reference": "https://github.com/pmarmotte2/Comfyui_Pick_Any",
+            "files": [
+                "https://github.com/pmarmotte2/Comfyui_Pick_Any"
+            ],
+            "install_type": "git-clone",
+            "description": "Advanced chooser nodes for ComfyUI that let workflows pause for image, audio, or text selection, with optional automatic picking and series helper nodes."
+        },
+        {
+            "author": "WJLUOXIAO",
+            "title": "XB_ToolBox",
+            "reference": "https://github.com/WJLUOXIAO/XB_ToolBox",
+            "files": [
+                "https://github.com/WJLUOXIAO/XB_ToolBox"
+            ],
+            "install_type": "git-clone",
+            "description": "A comprehensive ComfyUI extension suite encompassing both front-end interaction and low-level memory scheduling, designed to help beginners master workflows and simplify local deployment."
+        },
+        {
+            "author": "PaoloC68",
+            "title": "ComfyUI-PuLID-Flux-Chroma",
+            "id": "comfyui-pulid-flux-chroma",
+            "reference": "https://github.com/PaoloC68/ComfyUI-PuLID-Flux-Chroma",
+            "files": [
+                "https://github.com/PaoloC68/ComfyUI-PuLID-Flux-Chroma"
+            ],
+            "install_type": "git-clone",
+            "description": "The first PuLID (face identity preservation) implementation with full Chroma model support for ComfyUI. Automatically detects and adapts to both FLUX and Chroma models. Fork of PuLID-Flux-Enhanced with comprehensive Chroma compatibility fixes.",
+            "stars": 0,
+            "last_update": "2025-06-15 00:00:00",
+            "preemptions": [
+                "ApplyPulidFlux",
+                "PulidFluxModelLoader",
+                "PulidFluxInsightFaceLoader",
+                "PulidFluxEvaClipLoader"
+            ],
+            "nodename_pattern": "PulidFlux",
+            "badges": [
+                "Chroma",
+                "Face Identity"
+            ],
+            "dependencies": [
+                "insightface",
+                "onnxruntime"
+            ],
+            "pip": [
+                "insightface",
+                "onnxruntime"
+            ]
+        },
+        {
+            "author": "flrngel",
+            "title": "ComfyUI_rgbx_xrgb_Wrapper",
+            "reference": "https://github.com/flrngel/ComfyUI_rgbx_xrgb_Wrapper",
+            "files": [
+                "https://github.com/flrngel/ComfyUI_rgbx_xrgb_Wrapper"
+            ],
+            "install_type": "git-clone",
+            "description": "This is the rgb2x and x2rgb wrapper node for ComfyUI. The required models are automatically downloaded on the first run.\noriginal project : [a/https://github.com/zheng95z/rgbx](original project : https://github.com/zheng95z/rgbx)"
+        },
+        {
             "author": "nicehero",
-            "title": "comfyui-conditioning-saver",
+            "title": "ComfyUI Conditioning Saver",
+            "id": "conditioningsaver",
             "reference": "https://github.com/nicehero/comfyui-conditioning-saver",
             "files": [
                 "https://github.com/nicehero/comfyui-conditioning-saver"
             ],
             "install_type": "git-clone",
-            "description": "Save and load CONDITIONING tensors to/from files, enabling reuse of encoded prompts and caching expensive CLIP encodings across workflows."
+            "description": "Save and load CONDITIONING tensors to or from files, enabling reuse of encoded prompts and caching expensive CLIP encodings across workflows."
         },
         {
             "author": "randyhaylor",
