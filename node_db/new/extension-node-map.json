@@ -4247,6 +4247,14 @@
             "title_aux": "DynamicPose-ComfyUI"
         }
     ],
+    "https://github.com/BitPoet/ComfyUI-bitpoet-keywordsize": [
+        [
+            "BitPoetKeywordSizeNode"
+        ],
+        {
+            "title_aux": "ComfyUI-bitpoet-keywordsize"
+        }
+    ],
     "https://github.com/BizaNator/ComfyUI_PromptIterator": [
         [
             "PromptIterator",
@@ -4656,6 +4664,14 @@
         ],
         {
             "title_aux": "ComfyUI_FaceAlignPaste"
+        }
+    ],
+    "https://github.com/COkedat/comfyui-prompt-append": [
+        [
+            "ConditionalPromptAppendNode"
+        ],
+        {
+            "title_aux": "comfyui-prompt-append"
         }
     ],
     "https://github.com/CY-CHENYUE/ComfyUI-FramePack-HY": [
@@ -9494,6 +9510,17 @@
         ],
         {
             "title_aux": "ComfyUI_ExtractLora"
+        }
+    ],
+    "https://github.com/GeekatplayStudio/ComfyUI-HiddenImages": [
+        [
+            "IllusionLatentMask",
+            "IllusionMagicScheduler",
+            "IllusionPatternPreprocessor",
+            "IllusionTextMask"
+        ],
+        {
+            "title_aux": "ComfyUI-HiddenImages"
         }
     ],
     "https://github.com/GeekatplayStudio/ComfyUI-Text2Speech": [
@@ -16332,6 +16359,9 @@
             "NS-MicroConditioningSchedule",
             "NS-PromptList",
             "NS-RefinerBoundaryOptimizer",
+            "NS-RefinerGuidanceScale",
+            "NS-RefinerSchedule",
+            "NS-RefinerTextEncode",
             "NS-ToonFilter",
             "SimpleLLMAddDocument",
             "SimpleLLMAddMemory",
@@ -18474,6 +18504,18 @@
         ],
         {
             "title_aux": "Claude CLI (Vision+Text)"
+        }
+    ],
+    "https://github.com/RandyHaylor/unified-conditioning-combine-with-timestep-range": [
+        [
+            "CLIPTextEncodeSDXLAutoSplitAndMerge",
+            "CLIPTextEncodeWithCutoffRegionSeparation",
+            "ConditioningCropZoomSDXL",
+            "ConditioningMergeWithTimestepRanges",
+            "DebugConditioning"
+        ],
+        {
+            "title_aux": "Unified Conditioning Merge (with timestep ranges)"
         }
     ],
     "https://github.com/Rathius-Saranoth/Rathius_ComfyNodes": [
@@ -30005,9 +30047,9 @@
     ],
     "https://github.com/bnwa/comfy_combos": [
         [
-            "comfy_combos_Flux1DimensionsSelector",
-            "comfy_combos_SDXLDimensionsSelector",
-            "comfy_combos_ZImageDimensionsSelector"
+            "comfy_resolutions_Flux1DimensionsSelector",
+            "comfy_resolutions_SDXLDimensionsSelector",
+            "comfy_resolutions_ZImageDimensionsSelector"
         ],
         {
             "title_aux": "Comfy Combos"
@@ -33564,6 +33606,7 @@
             "GeminiNanoBanana2V2",
             "GeminiNode",
             "GenerateTracks",
+            "GetICLoRAParameters",
             "GetImageSize",
             "GetVideoComponents",
             "GrokImageEditNode",
@@ -39854,7 +39897,9 @@
     ],
     "https://github.com/hanL34/ComfyUI-Power-Artist-Loader": [
         [
-            "PowerArtistLoader"
+            "AddArtistToCSV",
+            "PowerArtistLoader",
+            "RandomArtistString"
         ],
         {
             "title_aux": "ComfyUI-Power-Artist-Loader"
@@ -45610,6 +45655,14 @@
             "title_aux": "ComfyUI-TextGenerateQwen3Prompt"
         }
     ],
+    "https://github.com/knishika62/ComfyUI_AITuber": [
+        [
+            "AITuberPersonaPrompt"
+        ],
+        {
+            "title_aux": "ComfyUI_AITuber"
+        }
+    ],
     "https://github.com/knottttt/comfyui-tinyPNG": [
         [
             "TinyPNGCompress"
@@ -49174,6 +49227,14 @@
             "title_aux": "ComfyUI-ZImageTurboHQNodes"
         }
     ],
+    "https://github.com/marduk191/ComfyUI-fp8_cublas": [
+        [
+            "FP8ModelPatch"
+        ],
+        {
+            "title_aux": "ComfyUI-fp8_cublas"
+        }
+    ],
     "https://github.com/marduk191/ComfyUI_LFM2-350M": [
         [
             "LFM2Generator",
@@ -49215,6 +49276,15 @@
         ],
         {
             "title_aux": "comfyui-nucleus"
+        }
+    ],
+    "https://github.com/marduk191/comfyui-voxtral": [
+        [
+            "VoxtralTTSClone",
+            "VoxtralTTSFixed"
+        ],
+        {
+            "title_aux": "comfyui-voxtral"
         }
     ],
     "https://github.com/marduk191/comfyui_qwen_runninghub": [
@@ -49429,6 +49499,15 @@
         ],
         {
             "title_aux": "Facerestore CF (Code Former)"
+        }
+    ],
+    "https://github.com/maweiqiang1978/ComfyUI-AIB": [
+        [
+            "AutoDoubleEyelidMask",
+            "MaskCrop"
+        ],
+        {
+            "title_aux": "ComfyUI-AIB"
         }
     ],
     "https://github.com/max-dingsda/ComfyUI-AllinOne-LazyNode": [
@@ -51368,6 +51447,15 @@
         ],
         {
             "title_aux": "comfyui-SegGPT"
+        }
+    ],
+    "https://github.com/nicehero/comfyui-conditioning-saver": [
+        [
+            "LoadConditioning",
+            "SaveConditioning"
+        ],
+        {
+            "title_aux": "comfyui-conditioning-saver"
         }
     ],
     "https://github.com/nickve28/ComfyUI-Nich-Utils": [
@@ -57517,6 +57605,14 @@
         ],
         {
             "title_aux": "ComfyUI-YK Line loading"
+        }
+    ],
+    "https://github.com/siw6819/comfyui-case-insensitive-dropdowns": [
+        [
+            "AlphabeticalSort"
+        ],
+        {
+            "title_aux": "comfyui-case-insensitive-dropdowns"
         }
     ],
     "https://github.com/sjh00/ComfyUI-LoadImageWithInfo": [
