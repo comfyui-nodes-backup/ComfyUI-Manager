@@ -1,6 +1,14 @@
 {
     "custom_nodes": [
         {
+            "author": "Anonymzx",
+            "title": "BangtrixToolkit",
+            "reference": "https://github.com/Anonymzx/BangtrixToolkit",
+            "files": ["https://github.com/Anonymzx/BangtrixToolkit"],
+            "install_type": "git-clone",
+            "description": "Advanced ComfyUI toolkit with translation, AMD ROCm utilities, optimization, and workflow enhance"
+        },
+        {
             "author": "Carasibana",
             "title": "ComfyUI-SimpleFloatSlider",
             "reference": "https://github.com/Carasibana/ComfyUI-SimplayboyleFloatSlider",
