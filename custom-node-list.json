@@ -17479,13 +17479,14 @@
         },
         {
             "author": "nicehero",
-            "title": "comfyui-conditioning-saver",
+            "title": "ComfyUI Conditioning Saver",
+            "id": "conditioningsaver",
             "reference": "https://github.com/nicehero/comfyui-conditioning-saver",
             "files": [
                 "https://github.com/nicehero/comfyui-conditioning-saver"
             ],
             "install_type": "git-clone",
-            "description": "Save and load CONDITIONING tensors to/from files, enabling reuse of encoded prompts and caching expensive CLIP encodings across workflows."
+            "description": "Save and load CONDITIONING tensors to or from files, enabling reuse of encoded prompts and caching expensive CLIP encodings across workflows."
         },
         {
             "author": "sakura1bgx",
@@ -47945,17 +47946,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "nicehero",
-            "title": "ComfyUI Conditioning Saver",
-            "id": "conditioningsaver",
-            "reference": "https://github.com/nicehero/comfyui-conditioning-saver",
-            "files": [
-                "https://github.com/nicehero/comfyui-conditioning-saver"
-            ],
-            "install_type": "git-clone",
-            "description": "Save and load CONDITIONING tensors to or from files, enabling reuse of encoded prompts and caching expensive CLIP encodings across workflows."
         }
     ]
 }
