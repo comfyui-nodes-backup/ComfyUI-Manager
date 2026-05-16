@@ -47946,6 +47946,16 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
+        },
+        {
+            "author": "PlagueKind",
+            "title": "PlagueKind-Nodes",
+            "reference": "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes",
+            "files": [
+                "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom ComfyUI nodes providing unified image and mask resizing with multiple scaling modes, aspect-ratio preservation, center crop alignment, and stable tensor-based mask transformations."
         }
     ]
 }
