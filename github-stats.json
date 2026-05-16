@@ -1069,6 +1069,11 @@
         "last_update": "2026-02-24 10:23:03",
         "author_account_age_days": 458
     },
+    "https://github.com/Anonymzx/BangtrixToolkit": {
+        "stars": 0,
+        "last_update": "2026-05-16 08:17:50",
+        "author_account_age_days": 2520
+    },
     "https://github.com/Antique3e/ComfyUI-ModalCredits": {
         "stars": 0,
         "last_update": "2025-12-05 16:07:04",
@@ -4974,6 +4979,11 @@
         "last_update": "2025-12-20 18:29:00",
         "author_account_age_days": 3268
     },
+    "https://github.com/MagosDigitalStudio/ComfyUI-Magos-Nodes": {
+        "stars": 10,
+        "last_update": "2026-05-15 14:45:43",
+        "author_account_age_days": 28
+    },
     "https://github.com/MajoorWaldi/ComfyUI-Majoor-AssetsManager": {
         "stars": 102,
         "last_update": "2026-05-15 15:13:23",
@@ -5929,6 +5939,11 @@
         "last_update": "2025-12-09 21:44:09",
         "author_account_age_days": 2176
     },
+    "https://github.com/PaoloC68/ComfyUI-PuLID-Flux-Chroma": {
+        "stars": 22,
+        "last_update": "2025-06-14 11:42:01",
+        "author_account_age_days": 5190
+    },
     "https://github.com/Parameshvadivel/ComfyUI-SVGview": {
         "stars": 2,
         "last_update": "2024-07-31 13:40:33",
@@ -6063,6 +6078,11 @@
         "stars": 12,
         "last_update": "2025-11-06 16:43:31",
         "author_account_age_days": 620
+    },
+    "https://github.com/PlagueKind/ComfyUI-PlagueKind-Nodes": {
+        "stars": 5,
+        "last_update": "2026-05-14 10:07:31",
+        "author_account_age_days": 2
     },
     "https://github.com/PnthrLeo/comfyUI-PL-data-tools": {
         "stars": 2,
@@ -8223,6 +8243,11 @@
         "stars": 5,
         "last_update": "2026-04-19 23:08:50",
         "author_account_age_days": 5316
+    },
+    "https://github.com/WJLUOXIAO/XB_ToolBox": {
+        "stars": 31,
+        "last_update": "2026-05-15 13:05:51",
+        "author_account_age_days": 320
     },
     "https://github.com/WUYUDING2583/ComfyUI-Save-Image-Callback": {
         "stars": 2,
@@ -12824,6 +12849,11 @@
         "last_update": "2024-06-16 00:53:22",
         "author_account_age_days": 964
     },
+    "https://github.com/flrngel/ComfyUI_rgbx_xrgb_Wrapper": {
+        "stars": 1,
+        "last_update": "2025-06-08 03:51:26",
+        "author_account_age_days": 4929
+    },
     "https://github.com/fluffydiveX/ComfyUI-hvBlockswap": {
         "stars": 9,
         "last_update": "2025-03-30 03:30:40",
@@ -14947,6 +14977,11 @@
     "https://github.com/ketle-man/comfyui-vrm-pose-editor": {
         "stars": 1,
         "last_update": "2026-04-29 15:28:16",
+        "author_account_age_days": 902
+    },
+    "https://github.com/ketle-man/model-and-prompt-from-metadata": {
+        "stars": 0,
+        "last_update": "2026-05-15 01:54:54",
         "author_account_age_days": 902
     },
     "https://github.com/kevinmcmahondev/comfyui-kmcdev-image-filter-adjustments": {
@@ -18272,6 +18307,11 @@
     "https://github.com/pmarmotte2/ComfyUI-Speaker-Isolation": {
         "stars": 11,
         "last_update": "2026-05-14 11:43:40",
+        "author_account_age_days": 755
+    },
+    "https://github.com/pmarmotte2/Comfyui_Pick_Any": {
+        "stars": 0,
+        "last_update": "2026-05-11 12:30:37",
         "author_account_age_days": 755
     },
     "https://github.com/pnikolic-amd/ComfyUI_MIGraphX": {
