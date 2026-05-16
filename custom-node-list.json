@@ -45494,6 +45494,17 @@
             "description": "Workflow management and generation UI plugin. Browse, organize, and execute workflows with auto-generated parameter editing, AI prompt assistant (Ollama), JSON syntax highlighting, Eagle integration, and multi-language support (EN/JA/ZH)."
         },
         {
+            "author": "ketle-man",
+            "title": "Model and Prompt from Metadata",
+            "id": "model-and-prompt-from-metadata",
+            "reference": "https://github.com/ketle-man/model-and-prompt-from-metadata",
+            "files": [
+                "https://github.com/ketle-man/model-and-prompt-from-metadata"
+            ],
+            "install_type": "git-clone",
+            "description": "Drop a ComfyUI PNG/WebP/JSON onto the node to instantly extract and apply checkpoint, VAE, and prompts from embedded metadata. Supports ComfyUI, SD WebUI, SD Forge neo, Fooocus, SDXLPromptStyler, and Lora Loader (LoraManager). Includes LoRA from Metadata and CLIP Text Encode edit+ nodes."
+        },
+        {
             "author": "senjinthedragon",
             "title": "ComfyUI Gender Tag Filter",
             "reference": "https://github.com/senjinthedragon/comfyui-gender-tag-filter",
