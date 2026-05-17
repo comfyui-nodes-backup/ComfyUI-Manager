@@ -47566,6 +47566,17 @@
             "install_type": "git-clone",
             "description": "Custom ComfyUI nodes providing unified image and mask resizing with multiple scaling modes, aspect-ratio preservation, center crop alignment, and stable tensor-based mask transformations."
         },
+        {
+            "author": "dreamrec",
+            "title": "ComfyUI-Pixal3D",
+            "id": "comfyui-pixal3d",
+            "reference": "https://github.com/dreamrec/ComfyUI-Pixal3D",
+            "files": [
+                "https://github.com/dreamrec/ComfyUI-Pixal3D"
+            ],
+            "install_type": "git-clone",
+            "description": "ComfyUI wrapper for [a/Pixal3D](https://github.com/TencentARC/Pixal3D) — Tencent's SIGGRAPH 2026 single-image to PBR-textured-3D pipeline. Windows + NVIDIA RTX 30/40/50 (≥ 16 GB VRAM). One image → textured PBR mesh in ~3-5 min. Built on top of [a/ComfyUI-Trellis2](https://github.com/visualbruno/ComfyUI-Trellis2). Note: Pixal3D itself is academic / non-commercial only and NOT for EU use — see NOTICE.md."
+        },
 
 
 
@@ -47956,17 +47967,6 @@
             ],
             "install_type": "unzip",
             "description": "This is a node to convert an image into a CMYK Halftone dot image."
-        },
-        {
-            "author": "dreamrec",
-            "title": "ComfyUI-Pixal3D",
-            "id": "comfyui-pixal3d",
-            "reference": "https://github.com/dreamrec/ComfyUI-Pixal3D",
-            "files": [
-                "https://github.com/dreamrec/ComfyUI-Pixal3D"
-            ],
-            "install_type": "git-clone",
-            "description": "ComfyUI wrapper for [a/Pixal3D](https://github.com/TencentARC/Pixal3D) — Tencent's SIGGRAPH 2026 single-image to PBR-textured-3D pipeline. Windows + NVIDIA RTX 30/40/50 (≥ 16 GB VRAM). One image → textured PBR mesh in ~3-5 min. Built on top of [a/ComfyUI-Trellis2](https://github.com/visualbruno/ComfyUI-Trellis2). Note: Pixal3D itself is academic / non-commercial only and NOT for EU use — see NOTICE.md."
         }
     ]
 }
